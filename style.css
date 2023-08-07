@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 800px;
+    background: url(img/header-bg.png) no-repeat;
+    background-size: cover;
+}
+.halfWidth{
+    float: left;
+    width: 35%;
+    margin: 10% 5%;
+}
+.halfWidth img{
+    width: 90%;
+}
+.bannerText{
+    margin: 18% 10%;
+}
+.myName{
+    color: palevioletred;
+    margin: 3% 0;
+    font-size: 40px;
+}
+p{
+    line-height: 2;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px 0;
+    cursor: pointer;
+}
