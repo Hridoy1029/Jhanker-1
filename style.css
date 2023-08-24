@@ -69,3 +69,27 @@ h1{
 .secondPart p{
     line-height: 2;
 }
+.latestWork{
+    height: 500px;
+    background-image: url('img/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestWork h1{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.workImage{
+    float: left;
+}
+.latestWork img{
+    width: 20%;
+    margin: 10px 20px;
+}
+#img1{
+    margin-left: 250px;
+}
+#img3{
+    margin-right: 250px;
+}
