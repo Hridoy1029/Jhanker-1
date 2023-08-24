@@ -70,26 +70,75 @@ h1{
     line-height: 2;
 }
 .latestWork{
-    height: 500px;
+    height: 600px;
     background-image: url('img/latest-work-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .latestWork h1{
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 0;
+    position: relative;
+    left: -100px;
+    top: 70px;
 }
 .workImage{
     float: left;
 }
-.latestWork img{
-    width: 20%;
-    margin: 10px 20px;
+.workImage img{
+    width: 25%;
+    margin: 60px 30px;
 }
 #img1{
-    margin-left: 250px;
+    margin-left: 150px;
 }
-#img3{
-    margin-right: 250px;
+.review{
+    height: 650px;
+    background: url('img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.extras{
+    text-align: center;
+}
+.extras h1{
+    padding: 30px;
+    margin: 50px 10px;
+}
+.extras h4{
+    line-height: 3;
+}
+.extras h5{
+    color: rgb(95, 93, 93);
+    line-height: 2;
+    margin-bottom: 45px;
+}
+.extras p{
+    width: 27%;
+    margin: auto;
+    line-height: 2;
+    margin-bottom: 45px;
+}
+.pinkBox{
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 100px;
+    background-color: #e75480;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.pinkBox p{
+    margin: 20px 10px 15px 10px; 
+    padding-top: 20px;
+}
+.pinkBox a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(172, 172, 172);
 }
