@@ -7,28 +7,35 @@ body{
     /* font-family: 'Kanit', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
-header{
+h1{
+    font-size: 32px;
+}
+.firstPart{
     height: 800px;
-    background: url(img/header-bg.png) no-repeat;
+    background-image: url('img/header-bg.png');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .halfWidth{
     float: left;
     width: 35%;
-    margin: 10% 5%;
+    /* margin: 10% 5%; */
 }
-.halfWidth img{
-    width: 90%;
+.firstImage img{
+    width: 100%;
 }
-.bannerText{
-    margin: 18% 10%;
+.firstText{
+    margin: 15% 2% 10% 13%;
+}
+.firstImage{
+    margin: 5% 13% 10% 2%;
 }
 .myName{
     color: palevioletred;
     margin: 3% 0;
     font-size: 40px;
 }
-p{
+.firstPart p{
     line-height: 2;
 }
 .btn{
@@ -40,4 +47,25 @@ p{
     padding: 15px 30px;
     margin: 15px 0;
     cursor: pointer;
+}
+.secondPart{
+    height: 800px;
+    background-image: url('img/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondPart h1{
+    padding: 15px 0;
+}
+.secondImage img{
+    width: 90%;
+}
+.secondImage{
+    margin: 5% 2% 10% 13%;
+}
+.secondText{
+    margin: 15% 13% 10% 2%;
+}
+.secondPart p{
+    line-height: 2;
 }
