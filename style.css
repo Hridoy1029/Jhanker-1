@@ -1,102 +1,82 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    /* font-family: 'Kanit', sans-serif; */
-    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     font-size: 32px;
 }
 
-.firstPart {
-    height: 800px;
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
     background-image: url('img/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 850px;
 }
 
 .halfWidth {
-    float: left;
     width: 35%;
-    /* margin: 10% 5%; */
+    float: left;
 }
 
-.firstImage img {
+.halfWidth p {
+    line-height: 2;
+    margin: 12px 0px;
+    text-align: justify;
+}
+
+.halfWidth img {
     width: 100%;
 }
 
-.firstText {
-    margin: 15% 2% 10% 13%;
+.bannerText {
+    margin: 15% 5% 13% 10%;
 }
 
-.firstImage {
-    margin: 5% 13% 10% 2%;
+.bannerImage {
+    margin: 6% 5% 2% 9%;
 }
 
 .myName {
     color: palevioletred;
-    margin: 3% 0;
     font-size: 40px;
-}
-
-.firstPart p {
-    line-height: 2;
+    margin: 3% 0;
 }
 
 .btn {
+    padding: 15px 30px;
+    margin: 5px 0;
     border: none;
     border-radius: 5px;
-    color: white;
     background-color: palevioletred;
+    color: white;
     font-size: 20px;
-    padding: 15px 30px;
-    margin: 15px 0;
     cursor: pointer;
 }
 
-.secondPart {
-    height: 800px;
+.biography {
     background-image: url('img/biography-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 850px;
 }
 
-.secondPart h1 {
-    padding: 15px 0;
-}
-
-.secondImage img {
-    width: 90%;
-}
-
-.secondImage {
-    margin: 5% 2% 10% 13%;
-}
-
-.secondText {
-    margin: 15% 13% 10% 2%;
-}
-
-.secondPart p {
-    line-height: 2;
-}
-
-.latestWork {
-    height: 600px;
-    background-image: url('img/latest-work-bg.png');
+.latest-work {
+    background-image: url(img/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
 }
 
-.latestWork h1 {
-    position: relative;
-    left: -100px;
-    top: 70px;
+.workTitle {
+    text-align: center;
+    margin: 40px 0px;
 }
 
 .workImage {
@@ -113,10 +93,10 @@ h1 {
 }
 
 .review {
-    height: 650px;
-    background: url('img/footer-bg.png');
+    background: url(img/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 650px;
 }
 
 .extras {
